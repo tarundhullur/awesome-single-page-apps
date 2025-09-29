@@ -36,3 +36,9 @@ To ensure your contribution is valid for Hacktoberfest, please adhere to the fol
 
 ---
 ### Happy Hacking! 🎃
+
+---
+
+<p align="center" >
+  <img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest-12--nav.0ac01b46.svg" alt="Hacktoberfest Banner" width="80%"/>
+</p>
