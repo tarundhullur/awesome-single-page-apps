@@ -1,25 +1,38 @@
-# Awesome Single-Page Apps ✨
+# Awesome Single-Page Apps for Hacktoberfest 2025 ✨
 
-A collection of awesome single-page applications built by the open-source community for Hacktoberfest! This project is a great starting point for beginners to make their first open-source contribution.
+[![Hacktoberfest 2025](https://img.shields.io/badge/Hacktoberfest-2025-blue.svg)](https://hacktoberfest.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-## How to Contribute
+Welcome! This repository is a collection of awesome single-page applications built by the open-source community for **Hacktoberfest 2025**. It's the perfect place for beginners to make their first meaningful open-source contribution.
+
+We are excited to see your creative projects, whether it's a simple portfolio, a landing page, or a fun mini-game like Snake, Tic-Tac-Toe, or a weather app!
+
+## 🚀 How to Contribute
 
 We'd love to have your contributions! Please follow these simple steps:
 
 1.  **Fork** this repository.
-2.  **Create a new folder** for your project inside the main directory. The folder name should be descriptive and in `kebab-case` (e.g., `simple-portfolio`, `snake-game`, `color-matching-game`).
-3.  **Add your project files** (HTML, CSS, JavaScript) inside your new folder. You may use react, vue, angular, next if you are comfortable with them. 
-4.  **Add your project details** to the table below in this `README.md` file. Please add your entry at the bottom of the table.
-5.  **Create a Pull Request** to the `main` branch of this repository.
+2.  **Create a new folder** for your project inside the main directory. The folder name must be descriptive and in `kebab-case` (e.g., `simple-portfolio`, `snake-game`, `color-matching-game`).
+3.  **Add your project files** (HTML, CSS, JavaScript) inside your new folder.
+4.  **Add your project details** to the table in this `README.md` file. Make sure to add your entry at the bottom of the table.
+5.  **Create a Pull Request** to the `main` branch of this repository with a clear title and description.
 
-> **Note:** Make sure your project is a single-page application and includes a live deployment link (you can use services like GitHub Pages, Vercel, or Netlify for free hosting). You may use AI for assistance but don't just copypaste the whole thing as it means nothing and will most probably be rejected.
+## 📜 Rules & Guidelines
 
-## Contributed Applications
+To ensure your contribution is valid for Hacktoberfest, please adhere to the following:
 
-| Project Name         | Description                                     | Live Link                                     | Contributor                               |
-| -------------------- | ----------------------------------------------- | --------------------------------------------- | ----------------------------------------- |
-| **Example: Tic-Tac-Toe** | A classic Tic-Tac-Toe game built with vanilla JS. | [Live Demo](https://example.com)              | [@github_username](https://github.com/github_username) |
-|                      |                                                 |                                               |                                           |
+* **Tech Stack:** You can use vanilla HTML, CSS, and JS, or frameworks like React, Vue, Angular, etc.
+* **Live Demo Required:** Your project must be deployed and include a live link. You can use free services like [GitHub Pages](https://pages.github.com/), [Vercel](https://vercel.com/), or [Netlify](https://www.netlify.com/).
+* **Originality:** Using AI for assistance is okay, but please do not submit 100% AI-generated projects. We want to see your creativity and effort! Submissions found to be low-effort or pure copy-paste will be marked as `invalid`.
+* **One Project Per Person:** To give everyone a fair chance, please submit only one project.
+
+## ✨ Contributed Applications
+
+| Project Name         | Description                                     | Tech Stack    | Live Link                                     | Contributor                               |
+| -------------------- | ----------------------------------------------- | ------------- | --------------------------------------------- | ----------------------------------------- |
+| **Example: Tic-Tac-Toe** | A classic Tic-Tac-Toe game built with vanilla JS. | `JavaScript`  | [Live Demo](https://example.com)              | [@github_username](https://github.com/github_username) |
+|                      |                                                 |               |                                               |                                           |
+
 
 ---
-Happy Hacking! 🎃
+### Happy Hacking! 🎃
