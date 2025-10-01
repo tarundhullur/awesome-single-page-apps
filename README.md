@@ -165,8 +165,8 @@ If you find this project helpful:
 ### 🔗 Connect With Us
 
 - 🐙 **GitHub**: [@Mystify7777](https://github.com/Mystify7777)
-- 🌐 **Website**: [Your Website Here]
-- 📧 **Email**: [Your Email Here]
+- 🌐 **Website**: [Still Working...]
+- 📧 **Email**: [Connect](aryankumar.55566@gmail.com)
 
 ---
 
