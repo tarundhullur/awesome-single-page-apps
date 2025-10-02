@@ -38,24 +38,28 @@ List the technologies you used:
 ## 🏃‍♂️ Quick Start
 
 ### Prerequisites
+
 - Web browser
 - (Optional) Node.js if using a framework
 
 ### Installation & Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/awesome-single-page-apps.git
    cd awesome-single-page-apps/your-project-folder
    ```
 
 2. **Open in browser** (for vanilla HTML/CSS/JS)
+
    ```bash
    # Simply open index.html in your browser
    open index.html
    ```
 
 3. **OR install dependencies** (for React/Vue/Angular projects)
+
    ```bash
    npm install
    npm run dev
@@ -71,7 +75,7 @@ Provide step-by-step instructions on how to use your application:
 
 ## 🏗️ Project Structure
 
-```
+```bash
 your-project-name/
 ├── index.html          # Main HTML file
 ├── styles.css          # Styling
@@ -97,6 +101,7 @@ Explain how you deployed your project:
 **Platform Used**: Vercel/Netlify/GitHub Pages
 
 **Deployment Steps**:
+
 1. Step 1
 2. Step 2
 3. Step 3

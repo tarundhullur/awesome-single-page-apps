@@ -65,7 +65,8 @@ mkdir your-project-name
 Place all your project files inside your new folder. **Important**: Each project must include a comprehensive README.md file using our standardized template.
 
 **Required Structure:**
-```
+
+```bash
 your-project-name/
 ├── index.html          # Main entry point
 ├── README.md           # REQUIRED - Use our template (see below)
@@ -76,6 +77,7 @@ your-project-name/
 ```
 
 **📝 README Requirements:**
+
 - Copy our [README template](./PROJECT_README_TEMPLATE.md) and fill it out completely
 - Include working live demo link
 - List all features and technologies used
@@ -83,6 +85,7 @@ your-project-name/
 - Include at least 1 screenshot (recommended)
 
 **✅ Use the Template:**
+
 ```bash
 # Copy the template to your project folder
 cp PROJECT_README_TEMPLATE.md your-project-name/README.md
