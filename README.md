@@ -120,7 +120,9 @@ Stuck for ideas? Here are some popular project categories:
 
 | Project Name | Description | Tech Stack | Live Demo | Contributor |
 |--------------|-------------|------------|-----------|-------------|
-| **Weather Dashboard** | A responsive weather dashboard showing current weather and 5-day forecast for any city with beautiful animations | `HTML` `CSS` `JavaScript` `OpenWeather API` | [🌐 Live Demo](https://thunderous-begonia-4144f9.netlify.app/) | [@Mystify7777](https://github.com/Mystify7777) |
+| **Movie Search App** | A responsive movie search application that allows users to search and discover movies using the OMDB API | `React` `Vite` `TailwindCSS` `OMDB API` | [🌐 Live Demo](#) | [@Mystify7777](https://github.com/Mystify7777) |
+| **NFT Marketplace** | A modern NFT marketplace where users can buy and sell NFTs with a sleek UI built using modern web technologies | `React` `Vite` `TailwindCSS` `Shadcn/ui` `AceternityUI` | [🌐 Live Demo](https://nft-website-eight-sigma.vercel.app/) | [@Mystify7777](https://github.com/Mystify7777) |
+| **nClickHub** | Interactive showcase of beautiful button designs with hover effects, animations, and customizable styles for developers | `HTML5` `CSS3` `JavaScript` `CSS Animations` | [🌐 Live Demo](#) | [@h3r3t](https://github.com/h3r3t) |
 | | | | | |
 
 > 🎉 **Want to be featured here?** Submit an exceptional project with great UI/UX and functionality!
@@ -131,8 +133,8 @@ Stuck for ideas? Here are some popular project categories:
 
 ### 📊 Repository Stats
 
-- 🎯 **Total Projects**: 1
-- 👥 **Contributors**: 1
+- 🎯 **Total Projects**: 3
+- 👥 **Contributors**: 2
 - 🌟 **Stars**: Check the badge above
 - 🍴 **Forks**: Check the badge above
 

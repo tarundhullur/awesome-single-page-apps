@@ -62,15 +62,31 @@ mkdir your-project-name
 
 ### 5. Add Your Project Files
 
-Place all your project files inside your new folder:
+Place all your project files inside your new folder. **Important**: Each project must include a comprehensive README.md file using our standardized template.
 
-```text
+**Required Structure:**
+```
 your-project-name/
-├── index.html
-├── style.css
-├── script.js
-├── README.md (optional but recommended)
-└── assets/ (if you have images, fonts, etc.)
+├── index.html          # Main entry point
+├── README.md           # REQUIRED - Use our template (see below)
+├── style.css           # CSS styling
+├── script.js           # JavaScript functionality
+├── screenshots/        # RECOMMENDED - App screenshots
+└── assets/             # Images, fonts, etc. (if needed)
+```
+
+**📝 README Requirements:**
+- Copy our [README template](./PROJECT_README_TEMPLATE.md) and fill it out completely
+- Include working live demo link
+- List all features and technologies used
+- Add installation/setup instructions
+- Include at least 1 screenshot (recommended)
+
+**✅ Use the Template:**
+```bash
+# Copy the template to your project folder
+cp PROJECT_README_TEMPLATE.md your-project-name/README.md
+# Then edit it with your project details
 ```
 
 ### 6. Deploy Your Project
@@ -172,19 +188,23 @@ This project follows all contribution guidelines and is ready for Hacktoberfest 
 
 ### ✅ What We Accept
 
-- Original single-page applications
-- Projects using any web technology (vanilla JS, React, Vue, Angular, etc.)
-- Creative and functional applications
-- Well-documented code
-- Working live demo links
+- ✅ **Original single-page applications** with genuine functionality
+- ✅ **Complete documentation** using our [README template](./PROJECT_README_TEMPLATE.md)
+- ✅ **Working live demo** deployed and accessible online
+- ✅ **Any web technology** (vanilla JS, React, Vue, Angular, etc.)
+- ✅ **Responsive design** that works on desktop and mobile
+- ✅ **Well-structured code** with proper organization
 
 ### ❌ What We Don't Accept
 
-- Duplicate projects
-- 100% AI-generated code without personal input
-- Projects without live demos
-- Low-effort or copy-paste submissions
-- Multiple projects from the same contributor
+- ❌ **Missing or incomplete README** files
+- ❌ **Broken or missing live demo** links
+- ❌ **Duplicate projects** (check existing projects first)
+- ❌ **Simple redirect pages** or placeholder content
+- ❌ **100% AI-generated code** without personal input or understanding
+- ❌ **Low-effort submissions** or copy-paste tutorials
+- ❌ **Multiple projects** from the same contributor
+- ❌ **Projects without proper documentation**
 
 ### 🔍 Before Submitting
 

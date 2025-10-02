@@ -1,24 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>nClickHub</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nClickHub - Button Design Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body style="font-family: Arial, sans-serif; background: #f5f7fa; text-align: center; padding-top: 100px;">
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <h1 class="logo">
+                        <span class="logo-icon"></span>
+                        nClickHub
+                    </h1>
+                    <p class="subtitle">Beautiful Button Designs Showcase</p>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number" id="button-count">6</span>
+                        <span class="stat-label">Buttons</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Categories</span>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-  <h1 style="color: #333; margin-bottom: 40px;">Explore nClickHub</h1>
+        <section class="controls">
+            <div class="container">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search buttons..." class="search-input">
+                    <button class="search-btn"></button>
+                </div>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="neon">Neon</button>
+                    <button class="filter-btn" data-filter="3d">3D Effects</button>
+                    <button class="filter-btn" data-filter="gradient">Gradient</button>
+                </div>
+            </div>
+        </section>
 
-  <button 
-    onclick="window.open('https://clickhub-hactoberfest2025.vercel.app/', '_blank')" 
-    style="padding: 12px 24px; background-color: #0070f3; color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;">
-    Go to nClickHub
-  </button>
+        <main class="gallery">
+            <div class="container">
+                <div class="button-grid" id="button-grid">
+                    
+                    <div class="button-card" data-category="neon" data-name="neon pulse">
+                        <div class="card-header">
+                            <h3 class="card-title">Neon Pulse</h3>
+                            <span class="card-tag tag-neon">Neon</span>
+                        </div>
+                        <div class="button-preview">
+                            <button class="neon-button" onclick="neonButtonClick(this)">
+                                <span class="neon-text">NEON PULSE</span>
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <span class="tech-stack">CSS  Animations</span>
+                            <button class="code-btn" onclick="showCode('neon')">View Code</button>
+                        </div>
+                    </div>
 
-  <script>
-    const btn = document.querySelector("button");
-    btn.onmouseover = () => btn.style.backgroundColor = "#0059c9";
-    btn.onmouseout = () => btn.style.backgroundColor = "#0070f3";
-  </script>
+                    <div class="button-card" data-category="3d" data-name="3d flip">
+                        <div class="card-header">
+                            <h3 class="card-title">3D Flip</h3>
+                            <span class="card-tag tag-3d">3D</span>
+                        </div>
+                        <div class="button-preview">
+                            <div class="flip-button-container">
+                                <button class="flip-button" onclick="flipButtonClick(this)">
+                                    <div class="flip-button-inner">
+                                        <div class="flip-button-front">
+                                            <span>HOVER ME</span>
+                                        </div>
+                                        <div class="flip-button-back">
+                                            <span>CLICKED!</span>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="tech-stack">CSS  3D Transform</span>
+                            <button class="code-btn" onclick="showCode('flip')">View Code</button>
+                        </div>
+                    </div>
 
+                    <div class="button-card" data-category="gradient" data-name="gradient glow">
+                        <div class="card-header">
+                            <h3 class="card-title">Gradient Glow</h3>
+                            <span class="card-tag tag-gradient">Gradient</span>
+                        </div>
+                        <div class="button-preview">
+                            <button class="gradient-button" onclick="gradientButtonClick(this)">
+                                <span class="gradient-text">GRADIENT MAGIC</span>
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <span class="tech-stack">CSS  Gradients</span>
+                            <button class="code-btn" onclick="showCode('gradient')">View Code</button>
+                        </div>
+                    </div>
+
+                    <div class="button-card" data-category="3d" data-name="ripple effect">
+                        <div class="card-header">
+                            <h3 class="card-title">Ripple Effect</h3>
+                            <span class="card-tag tag-3d">3D</span>
+                        </div>
+                        <div class="button-preview">
+                            <button class="ripple-button" onclick="rippleButtonClick(this, event)">
+                                <span>RIPPLE CLICK</span>
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <span class="tech-stack">CSS  JS Animation</span>
+                            <button class="code-btn" onclick="showCode('ripple')">View Code</button>
+                        </div>
+                    </div>
+
+                    <div class="button-card" data-category="neon" data-name="glitch effect">
+                        <div class="card-header">
+                            <h3 class="card-title">Glitch Effect</h3>
+                            <span class="card-tag tag-neon">Neon</span>
+                        </div>
+                        <div class="button-preview">
+                            <button class="glitch-button" onclick="glitchButtonClick(this)" data-text="GLITCH">
+                                <span>GLITCH</span>
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <span class="tech-stack">CSS  Glitch Effect</span>
+                            <button class="code-btn" onclick="showCode('glitch')">View Code</button>
+                        </div>
+                    </div>
+
+                    <div class="button-card" data-category="gradient" data-name="morphing shape">
+                        <div class="card-header">
+                            <h3 class="card-title">Morphing Shape</h3>
+                            <span class="card-tag tag-gradient">Gradient</span>
+                        </div>
+                        <div class="button-preview">
+                            <button class="morph-button" onclick="morphButtonClick(this)">
+                                <span>MORPH ME</span>
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <span class="tech-stack">CSS  Transitions</span>
+                            <button class="code-btn" onclick="showCode('morph')">View Code</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="no-results" id="no-results" style="display: none;">
+                    <div class="no-results-content">
+                        <span class="no-results-icon"></span>
+                        <h3>No buttons found</h3>
+                        <p>Try adjusting your search or filter criteria</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="modal" id="code-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modal-title">Button Code</h3>
+                    <button class="modal-close" onclick="closeModal()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="code-tabs">
+                        <button class="tab-btn active" onclick="showTab('html')">HTML</button>
+                        <button class="tab-btn" onclick="showTab('css')">CSS</button>
+                        <button class="tab-btn" onclick="showTab('js')">JavaScript</button>
+                    </div>
+                    <div class="code-content">
+                        <pre><code id="code-display"></code></pre>
+                    </div>
+                    <button class="copy-btn" onclick="copyCode()">Copy Code</button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2025 nClickHub - Part of Awesome Single-Page Apps</p>
+                    <div class="footer-links">
+                        <a href="https://hacktoberfest.com/" target="_blank">Hacktoberfest 2025</a>
+                        <a href="https://github.com/Mystify7777/awesome-single-page-apps" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
